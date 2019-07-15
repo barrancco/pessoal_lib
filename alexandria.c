@@ -37,29 +37,3 @@ void vetorMultiplica(int VetorA[],int VetorB[],int size){
 void tecladoABNT(){
     setlocale(LC_ALL,"");
 }
-
-void menu(){
-
-    int opcao;
-
-    printf("\n\t Titulo do Menu \n");
-    printf("\n Escolha uma opcao");
-
-    printf("\n1.Opção Um");
-    printf("\n2.Opção Dois");
-
-
-    printf("\nOpção: ");
-    scanf("%d",&opcao);
-
-
-    switch(opcao)
-    {
-    case 1:
-        printf("PRIMEIRA");
-        break;
-    case 2:
-        printf("SEGUNDA");
-        break;
-    }
-}
